@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8"?>
+<!DOCTYPE BDlibros [
+  <!ELEMENT BDlibros (libro+)>
+  <!ELEMENT libro (codigo, titulo, editorial, isbn, num_pagina, autor)>
+  <!ELEMENT codigo (#PCDATA)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT editorial (#PCDATA)>
+  <!ELEMENT isbn (#PCDATA)>
+  <!ELEMENT num_pagina (#PCDATA)>
+  <!ELEMENT autor (#PCDATA)>
+]>
+
+<BDlibros>
+
+    <libro>
+        <codigo>1001</codigo>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <editorial>Editorial Planeta</editorial>
+        <isbn>978-3-16-148410-0</isbn>
+        <num_pagina>1050</num_pagina>
+        <autor>Miguel de Cervantes</autor>
+    </libro>
+    <libro>
+        <codigo>1002</codigo>
+        <titulo>Cien Anos de Soledad</titulo>
+        <editorial>Editorial Sudamericana</editorial>
+        <isbn>978-0-06-088328-7</isbn>
+        <num_pagina>417</num_pagina>
+        <autor>Gabriel Garcia Marquez</autor>
+    </libro>
+    <libro>
+        <codigo>1003</codigo>
+        <titulo>El Gran Gatsby</titulo>
+        <editorial>Penguin Books</editorial>
+        <isbn>978-1-84749-383-8</isbn>
+        <num_pagina>180</num_pagina>
+        <autor>F. Scott Fitzgerald</autor>
+    </libro>
+    <libro>
+        <codigo>1004</codigo>
+        <titulo>1984</titulo>
+        <editorial>Secker y Warburg</editorial>
+        <isbn>978-0-452-28423-4</isbn>
+        <num_pagina>328</num_pagina>
+        <autor>George Orwell</autor>
+    </libro>
+    <libro>
+        <codigo>1005</codigo>
+        <titulo>Orgullo y Prejuicio</titulo>
+        <editorial>Penguin Classics</editorial>
+        <isbn>978-0-14-143951-8</isbn>
+        <num_pagina>432</num_pagina>
+        <autor>Jane Austen</autor>
+    </libro>
+    <libro>
+        <codigo>1006</codigo>
+        <titulo>El Hobbit</titulo>
+        <editorial>HarperCollins</editorial>
+        <isbn>978-0-345-33968-3</isbn>
+        <num_pagina>310</num_pagina>
+        <autor>J.R.R. Tolkien</autor>
+    </libro>
+    <libro>
+        <codigo>1007</codigo>
+        <titulo>Crimen y Castigo</titulo>
+        <editorial>Editorial Alba</editorial>
+        <isbn>978-84-8323-909-0</isbn>
+        <num_pagina>556</num_pagina>
+        <autor>Fiodor Dostoyevski</autor>
+    </libro>
+    <libro>
+        <codigo>1008</codigo>
+        <titulo>La Odisea</titulo>
+        <editorial>Ediciones Gredos</editorial>
+        <isbn>978-84-249-0185-0</isbn>
+        <num_pagina>672</num_pagina>
+        <autor>Homero</autor>
+    </libro>
+    <libro>
+        <codigo>1009</codigo>
+        <titulo>La Sombra del Viento</titulo>
+        <editorial>Planeta</editorial>
+        <isbn>978-84-08-09724-0</isbn>
+        <num_pagina>502</num_pagina>
+        <autor>Carlos Ruiz Zafon</autor>
+    </libro>
+    <libro>
+        <codigo>1010</codigo>
+        <titulo>Los Miserables</titulo>
+        <editorial>Ediciones Akal</editorial>
+        <isbn>978-84-460-0737-0</isbn>
+        <num_pagina>1232</num_pagina>
+        <autor>Victor Hugo</autor>
+    </libro>
+
+</BDlibros>
