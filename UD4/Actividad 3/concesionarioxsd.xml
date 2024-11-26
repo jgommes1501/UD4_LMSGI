@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<concesionario xmlns:xsi="concesionario concesionario.xsd">
+    <coche>
+        <codigo>001</codigo>
+        <marca>Ford</marca>
+        <modelo>Focus</modelo>
+        <matricula>1234ABC</matricula>
+        <potencia>150</potencia>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+    <coche>
+        <codigo>002</codigo>
+        <marca>BMW</marca>
+        <modelo>320i</modelo>
+        <matricula>5678XYZ</matricula>
+        <potencia>180</potencia>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+    <coche>
+        <codigo>003</codigo>
+        <marca>Audi</marca>
+        <modelo>A4</modelo>
+        <matricula>4321XYZ</matricula>
+        <potencia>190</potencia>
+        <plazas>5</plazas>
+        <num_puertas>4</num_puertas>
+    </coche>
+    <coche>
+        <codigo>004</codigo>
+        <marca>Volkswagen</marca>
+        <modelo>Golf</modelo>
+        <matricula>8765JKL</matricula>
+        <potencia>130</potencia>
+        <plazas>5</plazas>
+        <num_puertas>5</num_puertas>
+    </coche>
+</concesionario>

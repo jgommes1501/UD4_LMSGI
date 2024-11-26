@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!ELEMENT concesionario (coche+)>
+  <!ELEMENT coche (codigo, marca, modelo, matricula, potencia, plazas, num_puertas)>
+  <!ELEMENT codigo (#PCDATA)>
+  <!ELEMENT marca (#PCDATA)>
+  <!ELEMENT modelo (#PCDATA)>
+  <!ELEMENT matricula (#PCDATA)>
+  <!ELEMENT potencia (#PCDATA)>
+  <!ELEMENT plazas (#PCDATA)>
+  <!ELEMENT num_puertas (#PCDATA)>
