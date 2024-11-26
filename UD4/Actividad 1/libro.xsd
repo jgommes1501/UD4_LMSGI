@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+  <xs:element name="BDlibros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libro" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:string"/>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="editorial" type="xs:string"/>
+              <xs:element name="isbn" type="xs:string"/>
+              <xs:element name="num_pagina" type="xs:int"/>
+              <xs:element name="autor" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
