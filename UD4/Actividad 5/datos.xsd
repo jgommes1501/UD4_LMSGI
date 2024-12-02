@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="alumnos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alumno" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nif" type="xs:string"/>
+              
+              <xs:element name="resultado" type="resultadoType"/>
+              
+              <xs:element name="observaciones" minOccurs="0" type="xs:string"/>
+              
+              <xs:element name="ip" minOccurs="0" type="ipType"/>
+              
+              <xs:element name="mac" minOccurs="0" type="macType"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="resultadoType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="apto"/>
+      <xs:enumeration value="no apto"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="ipType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="(\d{1,3}\.){3}\d{1,3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="macType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([0-9A-Fa-f]{2}[:-]){5}[0-9A-Fa-f]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

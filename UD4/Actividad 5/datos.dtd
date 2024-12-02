@@ -1,0 +1,10 @@
+<!ELEMENT alumnos (alumno+)>
+<!ELEMENT alumno (nif, resultado, observaciones?, ip?, mac?)>
+<!ELEMENT nif (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT observaciones (#PCDATA)>
+<!ELEMENT ip (#PCDATA)>
+<!ELEMENT mac (#PCDATA)>
+<!ATTLIST alumno 
+    ip_required CDATA #IMPLIED
+    mac_required CDATA #IMPLIED>
