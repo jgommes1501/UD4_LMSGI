@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT gestoria (sede+, cliente+)>
+
+<!ELEMENT sede (codigo_sede, nombre_empleado, fecha_alta, direccion)>
+<!ELEMENT codigo_sede (#PCDATA)>
+<!ELEMENT nombre_empleado (#PCDATA)>
+<!ELEMENT fecha_alta (#PCDATA)>
+<!ELEMENT direccion (direccion_linea_1, direccion_linea_2?, ciudad, provincia, codigo_postal)>
+<!ELEMENT direccion_linea_1 (#PCDATA)>
+<!ELEMENT direccion_linea_2 (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+
+<!ELEMENT cliente (codigo_cliente, descripcion_cliente, numero_viviendas, coste_vivienda, resumen_viviendas, plazo_alta_hacienda, viviendas)>
+<!ELEMENT codigo_cliente (#PCDATA)>
+<!ELEMENT descripcion_cliente (#PCDATA)>
+<!ELEMENT numero_viviendas (#PCDATA)>
+<!ELEMENT coste_vivienda (#PCDATA)>
+<!ELEMENT resumen_viviendas (#PCDATA)>
+<!ELEMENT plazo_alta_hacienda (#PCDATA)>
+
+<!ELEMENT viviendas (vivienda+)>
+<!ELEMENT vivienda (codigo_vivienda, descripcion, coste)>
+<!ELEMENT codigo_vivienda (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT coste (#PCDATA)>

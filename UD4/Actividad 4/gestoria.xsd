@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="gestoria">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sede" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo_sede" type="xs:string"/>
+                            <xs:element name="nombre_empleado" type="xs:string"/>
+                            <xs:element name="fecha_alta" type="xs:date"/>
+                            <xs:element name="direccion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="direccion_linea_1" type="xs:string"/>
+                                        <xs:element name="direccion_linea_2" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="ciudad" type="xs:string"/>
+                                        <xs:element name="provincia" type="xs:string"/>
+                                        <xs:element name="codigo_postal" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="cliente" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="codigo_cliente" type="xs:string"/>
+                            <xs:element name="descripcion_cliente" type="xs:string"/>
+                            <xs:element name="numero_viviendas" type="xs:int"/>
+                            <xs:element name="coste_vivienda" type="xs:decimal"/>
+                            <xs:element name="resumen_viviendas" type="xs:string"/>
+                            <xs:element name="plazo_alta_hacienda" type="xs:string"/>
+                            <xs:element name="viviendas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="vivienda" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="codigo_vivienda" type="xs:string"/>
+                                                    <xs:element name="descripcion" type="xs:string"/>
+                                                    <xs:element name="coste" type="xs:decimal"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gestoria SYSTEM "gestoria.dtd">
+<gestoria>
+    <sede>
+        <codigo_sede>SE234567</codigo_sede>
+        <nombre_empleado>María Gómez</nombre_empleado>
+        <fecha_alta>2024-11-15</fecha_alta>
+        <direccion>
+            <direccion_linea_1>Avenida 3</direccion_linea_1>
+            <direccion_linea_2>Avenida 4</direccion_linea_2>
+            <ciudad>Sevilla</ciudad>
+            <provincia>Sevilla</provincia>
+            <codigo_postal>41001</codigo_postal>
+        </direccion>
+    </sede>
+    <cliente>
+        <codigo_cliente>DEF-456</codigo_cliente>
+        <descripcion_cliente>insolvente</descripcion_cliente>
+        <numero_viviendas>2</numero_viviendas>
+        <coste_vivienda>40000</coste_vivienda>
+        <resumen_viviendas>1 vivienda de 60 m² y 1 vivienda de 75 m²</resumen_viviendas>
+        <plazo_alta_hacienda>18 meses</plazo_alta_hacienda>
+        <viviendas>
+            <vivienda>
+                <codigo_vivienda>VIV004</codigo_vivienda>
+                <descripcion>Vivienda de 60 m²</descripcion>
+                <coste>40000</coste>
+            </vivienda>
+            <vivienda>
+                <codigo_vivienda>VIV005</codigo_vivienda>
+                <descripcion>Vivienda de 75 m²</descripcion>
+                <coste>60000</coste>
+            </vivienda>
+        </viviendas>
+    </cliente>
+</gestoria>
