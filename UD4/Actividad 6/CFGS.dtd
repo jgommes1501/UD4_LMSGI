@@ -1,0 +1,7 @@
+<!ELEMENT CFGS (ModuloProfesional+)>
+<!ELEMENT ModuloProfesional (Nombre, Contenidos)>
+<!ELEMENT Nombre (#PCDATA)>
+<!ELEMENT Contenidos (UnidadDidactica+)>
+<!ELEMENT UnidadDidactica (Nombre, Tipo, Descripcion)>
+<!ELEMENT Tipo (#PCDATA)>
+<!ELEMENT Descripcion (#PCDATA)>

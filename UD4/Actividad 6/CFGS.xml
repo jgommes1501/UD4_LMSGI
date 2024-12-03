@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CFGS SYSTEM "CFGS.dtd">
+<CFGS>
+    <ModuloProfesional>
+        <Nombre>Desarrollo de Aplicaciones Web</Nombre>
+        <Contenidos>
+            <UnidadDidactica>
+                <Nombre>Introducción al desarrollo web</Nombre>
+                <Tipo>Teórica</Tipo>
+                <Descripcion>Fundamentos y herramientas básicas para desarrollar aplicaciones web.</Descripcion>
+            </UnidadDidactica>
+            <UnidadDidactica>
+                <Nombre>Programación en HTML y CSS</Nombre>
+                <Tipo>Práctica</Tipo>
+                <Descripcion>Creación de páginas web estáticas utilizando HTML y CSS.</Descripcion>
+            </UnidadDidactica>
+            <UnidadDidactica>
+                <Nombre>JavaScript y control de eventos</Nombre>
+                <Tipo>Práctica</Tipo>
+                <Descripcion>Introducción a la programación dinámica con JavaScript y la gestión de eventos.</Descripcion>
+            </UnidadDidactica>
+        </Contenidos>
+    </ModuloProfesional>
+    <ModuloProfesional>
+        <Nombre>Desarrollo de Aplicaciones para Dispositivos Móviles</Nombre>
+        <Contenidos>
+            <UnidadDidactica>
+                <Nombre>Introducción a las aplicaciones móviles</Nombre>
+                <Tipo>Teórica</Tipo>
+                <Descripcion>Principios básicos del desarrollo de aplicaciones para dispositivos móviles.</Descripcion>
+            </UnidadDidactica>
+            <UnidadDidactica>
+                <Nombre>Desarrollo en Android</Nombre>
+                <Tipo>Práctica</Tipo>
+                <Descripcion>Desarrollo de aplicaciones móviles usando el entorno Android.</Descripcion>
+            </UnidadDidactica>
+        </Contenidos>
+    </ModuloProfesional>
+</CFGS>
