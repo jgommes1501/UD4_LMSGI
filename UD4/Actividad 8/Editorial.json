@@ -1,0 +1,81 @@
+{
+    "informe": {
+      "cabecera": {
+        "fecha": "2024-12-10"
+      },
+      "datos": {
+        "regiones": [
+          {
+            "zona": {
+              "nombre": "Norte",
+              "trimestres": [
+                {
+                  "numero": 1,
+                  "libros": 1500
+                },
+                {
+                  "numero": 2,
+                  "libros": 1800
+                },
+                {
+                  "numero": 3,
+                  "libros": 2000
+                },
+                {
+                  "numero": 4,
+                  "libros": "NO_INFO"
+                }
+              ]
+            }
+          },
+          {
+            "zona": {
+              "nombre": "Sur",
+              "trimestres": [
+                {
+                  "numero": 1,
+                  "libros": 1200
+                },
+                {
+                  "numero": 2,
+                  "libros": 1100
+                },
+                {
+                  "numero": 3,
+                  "libros": "NO_INFO"
+                },
+                {
+                  "numero": 4,
+                  "libros": 1300
+                }
+              ]
+            }
+          },
+          {
+            "zona": {
+              "nombre": "Este",
+              "trimestres": [
+                {
+                  "numero": 1,
+                  "libros": "NO_INFO"
+                },
+                {
+                  "numero": 2,
+                  "libros": 1600
+                },
+                {
+                  "numero": 3,
+                  "libros": 1900
+                },
+                {
+                  "numero": 4,
+                  "libros": "NO_INFO"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+  

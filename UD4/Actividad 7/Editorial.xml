@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE informe [
+]>
+<informe>
+  <cabecera>
+    <fecha>2024-12-10</fecha>
+  </cabecera>
+  <datos>
+    <regiones>
+      <zona>
+        <nombre>Norte</nombre>
+        <trimestre>
+          <numero>1</numero>
+          <libros>1500</libros>
+        </trimestre>
+        <trimestre>
+          <numero>2</numero>
+          <libros>1800</libros>
+        </trimestre>
+        <trimestre>
+          <numero>3</numero>
+          <libros>2000</libros>
+        </trimestre>
+        <trimestre>
+          <numero>4</numero>
+          <libros>NO_INFO</libros>
+        </trimestre>
+      </zona>
+      
+      <zona>
+        <nombre>Sur</nombre>
+        <trimestre>
+          <numero>1</numero>
+          <libros>1200</libros>
+        </trimestre>
+        <trimestre>
+          <numero>2</numero>
+          <libros>1100</libros>
+        </trimestre>
+        <trimestre>
+          <numero>3</numero>
+          <libros>NO_INFO</libros>
+        </trimestre>
+        <trimestre>
+          <numero>4</numero>
+          <libros>1300</libros>
+        </trimestre>
+      </zona>
+      
+      <zona>
+        <nombre>Este</nombre>
+        <trimestre>
+          <numero>1</numero>
+          <libros>NO_INFO</libros>
+        </trimestre>
+        <trimestre>
+          <numero>2</numero>
+          <libros>1600</libros>
+        </trimestre>
+        <trimestre>
+          <numero>3</numero>
+          <libros>1900</libros>
+        </trimestre>
+        <trimestre>
+          <numero>4</numero>
+          <libros>NO_INFO</libros>
+        </trimestre>
+      </zona>
+    </regiones>
+  </datos>
+</informe>

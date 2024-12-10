@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!ELEMENT informe (cabecera, datos)>
+  
+  <!ELEMENT cabecera (fecha)>
+  <!ELEMENT fecha (#PCDATA)>
+  
+  <!ELEMENT datos (regiones)>
+  <!ELEMENT regiones (zona+)>
+  <!ELEMENT zona (nombre, trimestre+)>
+  <!ELEMENT nombre (#PCDATA)>
+  
+  <!ELEMENT trimestre (numero, libros)>
+  <!ELEMENT numero (#PCDATA)>
+  <!ELEMENT libros (#PCDATA)>
+  
+  <!ATTLIST trimestre numero (1|2|3|4) #REQUIRED>
+  
+  <!ELEMENT libros (#PCDATA)>
+]>
